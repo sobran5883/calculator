@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="name">
+            <h1></h1>
+        </div>
+        <h1 class="calc-title"> <b>Calculator</b> </h1>
+        <div id="calculator">
+            <div class="input-container">
+                <input type="text" id="input">
+            </div>
+            <table>
+                <tr>
+                    <td><button class="clear"><b>C</b></button></td>
+                    <td><button class="percent" value="%" >%</button></td>
+                    <td><button class="delete-btn"><i class="fa-solid fa-delete-left"></i></button></td>
+                    <td><button class="input-button" value="/"><i class="fa-solid fa-divide"></i></button></td>
+                </tr>
+                <tr>
+                    <td><button class="input-button new-color" value="7">7</button></td>
+                    <td><button class="input-button new-color" value="8">8</button></td>
+                    <td><button class="input-button new-color" value="9">9</button></td>
+                    <td><button class="input-button" value="*"><i class="fa-solid fa-xmark"></i></button></td>
+                </tr>
+                <tr>
+                    <td><button class="input-button new-color" value="4" >4</button></td>
+                    <td><button class="input-button new-color" value="5">5</button></td>
+                    <td><button class="input-button new-color" value="6">6</button></td>
+                    <td><button class="input-button" value="-"><i class="fa-solid fa-minus"></i></button></td>
+                </tr>
+                <tr>
+                    <td><button class="input-button new-color" value="1">1</button></td>
+                    <td><button class="input-button new-color" value="2">2</button></td>
+                    <td><button class="input-button new-color" value="3">3</button></td>
+                    <td><button class="input-button" value="+"><i class="fa-solid fa-plus"></i></button></td>
+                </tr>
+                <tr>
+                    <td><button class="input-button" value="00">00</button></td>
+                    <td><button class="input-button new-color" value="0">0</button></td>
+                    <td><button class="input-button" value="." ><b>.</b></button></td>
+                    <td><button class="equal-btn"><i class="fa-solid fa-equals"></i></button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/b7612bed47.js" crossorigin="anonymous"></script>
+</body>
+</html>
