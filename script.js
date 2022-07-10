@@ -16,8 +16,8 @@ setTimeout(() => {
 buttons.forEach((button) => {
     button.addEventListener("click", () => {
         if (equalPressed == 1) {
-            input.value = ""
-            equalPressed = 0
+            input.value = "";
+            equalPressed = 0;
         }
         input.value += button.value;
     });
