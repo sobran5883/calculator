@@ -33,15 +33,11 @@ equal.addEventListener("click", () => {
     let inp_val = input.value;
     try {
         let solution = eval(inp_val);
-
-        if (input.value == '%') {
-            input.value = (input.value + '/') * 100
-        }
-        else if (Number.isInteger(solution)) {
+        if (Number.isInteger(solution)) {
             input.value = solution;
         }
         else {
-            input.value = solution.toFixed(20);
+            input.value = solution.toFixed(5);
         }
     } catch (err) {
         input.value = "Invalid Input";
