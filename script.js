@@ -10,7 +10,7 @@ let percent = document.querySelector(".percent");
 input.value = "   SOBRAN   CSE    AI"
 setTimeout(() => {
     input.value = "";
-    nameElemet.innerText = "SOBRAN CSE AI"
+    // nameElemet.innerText = "SOBRAN CSE AI"
 }, 3000);
 
 buttons.forEach((button) => {
