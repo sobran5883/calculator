@@ -24,7 +24,7 @@ buttons.forEach((button) => {
 });
 
 percent.addEventListener("click", () => {
-    input.value += "*(1/100)";
+    input.value += "*(1/100)*";
 
 })
 
