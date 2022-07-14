@@ -54,6 +54,7 @@ input {
     border-radius: 15px;
     border: 5px solid #6c0b0b;
     font-size: 34px;
+    background-color: silver;
 }
 
 button {
